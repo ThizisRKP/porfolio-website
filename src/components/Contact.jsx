@@ -17,7 +17,7 @@ function Contact() {
         </a>
 
         <a
-          href="tel:+910000000000"
+          href="tel:+916383126917"
           className="flex items-center gap-3 hover:text-blue-600 transition-all duration-300"
         >
           <FaPhone className="text-2xl rotate-180"  />
