@@ -7,11 +7,12 @@ function Contact() {
 
       
       <div className="flex flex-col md:flex-row items-start  justify-center md:justify-evenly gap-6 items-center text-lg text-gray-700 ">
-
-        <a href="mailto:krishnaprabhurkp@gmail.com"
+        <a href="https://www.linkedin.com/in/krishnaprabhu-r-997b58275"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center gap-3 hover:text-blue-600 transition-all duration-300" >
-          <FaEnvelope className="text-2xl" />
-          krishnaprabhurkp@gmail.com
+          <FaLinkedin className="text-2xl" />
+          LinkedIn
         </a>
 
         <a href="tel:+916383126917"
@@ -20,13 +21,16 @@ function Contact() {
           +91 6383126917
         </a>
 
-        <a href="https://www.linkedin.com/in/krishnaprabhu-r-997b58275"
-          target="_blank"
-          rel="noopener noreferrer"
+
+        <a href="mailto:krishnaprabhurkp@gmail.com"
           className="flex items-center gap-3 hover:text-blue-600 transition-all duration-300" >
-          <FaLinkedin className="text-2xl" />
-          LinkedIn
+          <FaEnvelope className="text-2xl" />
+          krishnaprabhurkp@gmail.com
         </a>
+
+        
+
+        
 
       </div>
     </section>
