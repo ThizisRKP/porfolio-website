@@ -25,17 +25,20 @@ feedback tiles for an interactive UI.`,
 
   return (
     <section id="projects" className="py-20 bg-gray-100 px-6">
-      <h2 className="text-4xl font-bold text-center mb-10 bg-green-200 p-2">Projects</h2>
+      <h2 className="text-4xl font-bold text-center mb-10 bg-green-200 p-2 rounded-lg">Projects</h2>
 
       <div className="container mx-auto grid md:grid-cols-3 gap-10 ">
         {projects.map((p, i) => (
           <motion.div
-            key={i}
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="bg-white shadow-lg p-6 rounded-lg  my-10 bg-purple-400 italic"
-          >
+           key={i}
+           initial={{ opacity: 0, y: 20 }}
+           whileInView={{ opacity: 1, y: 0 }}
+           whileHover={{ scale: 1.05 }}   
+           transition={{ duration: 0.3 }}
+           className="bg-purple-200 shadow-lg p-6 rounded-lg my-10 italic hover:shadow-2xl hover:bg-purple-300 cursor-pointer" >
+
+ 
+          
             <h3 className="text-2xl font-bold mb-3">{p.title}</h3>
             <p className="text-gray-700 mb-4 semi-bold">{p.description}</p>
 

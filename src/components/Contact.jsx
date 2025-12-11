@@ -8,28 +8,22 @@ function Contact() {
       
       <div className="flex flex-col md:flex-row items-start  justify-center md:justify-evenly gap-6 items-center text-lg text-gray-700 ">
 
-        <a
-          href="mailto:yourmail@gmail.com"
-          className="flex items-center gap-3 hover:text-blue-600 transition-all duration-300"
-        >
+        <a href="mailto:krishnaprabhurkp@gmail.com"
+          className="flex items-center gap-3 hover:text-blue-600 transition-all duration-300" >
           <FaEnvelope className="text-2xl" />
           krishnaprabhurkp@gmail.com
         </a>
 
-        <a
-          href="tel:+916383126917"
-          className="flex items-center gap-3 hover:text-blue-600 transition-all duration-300"
-        >
+        <a href="tel:+916383126917"
+          className="flex items-center gap-3 hover:text-blue-600 transition-all duration-300" >
           <FaPhone className="text-2xl rotate-180"  />
           +91 6383126917
         </a>
 
-        <a
-          href="https://www.linkedin.com/in/krishnaprabhu-r-997b58275"
+        <a href="https://www.linkedin.com/in/krishnaprabhu-r-997b58275"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-3 hover:text-blue-600 transition-all duration-300"
-        >
+          className="flex items-center gap-3 hover:text-blue-600 transition-all duration-300" >
           <FaLinkedin className="text-2xl" />
           LinkedIn
         </a>
