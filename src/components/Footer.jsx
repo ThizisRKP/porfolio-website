@@ -10,7 +10,7 @@ function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900 text-white py-6 mt-20 relative">
+    <footer className=" P-2 bg-gray-900 text-white py-4 mt-20 relative">
   <div className="text-center space-y-3">
 
     <p className="text-sm text-gray-400 font-semibold">
@@ -20,9 +20,9 @@ function Footer() {
     <button
   onClick={scrollToTop}
   className="
-    absolute right-2 bottom-3 
-    bg-gray-700 p-2 rounded-full 
-    hover:bg-gray-600 transition
+    absolute right-2 bottom-1
+    bg-cyan-700 p-2 rounded-full 
+    hover:bg-gray-600 transition 
 
     sm:p-3   /* bigger on small and above */
   "
