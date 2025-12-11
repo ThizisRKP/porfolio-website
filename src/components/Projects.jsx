@@ -34,10 +34,10 @@ feedback tiles for an interactive UI.`,
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="bg-white shadow-lg p-6 rounded-lg  my-10 bg-purple-300 italic"
+            className="bg-white shadow-lg p-6 rounded-lg  my-10 bg-purple-400 italic"
           >
             <h3 className="text-2xl font-bold mb-3">{p.title}</h3>
-            <p className="text-gray-700 mb-4">{p.description}</p>
+            <p className="text-gray-700 mb-4 semi-bold">{p.description}</p>
 
             <a
               href={p.link}

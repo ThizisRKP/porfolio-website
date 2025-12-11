@@ -1,10 +1,11 @@
 import { FaDownload } from "react-icons/fa";
+import logo from "../assets/rkp-logo.png"
 
 function Navbar() {
   return (
     <nav className="fixed w-full bg-white shadow- z-50">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
-        <img src="\src\image\rkp-logo.png" alt="rkp-logo" style={{width :"6rem"}}/>
+        <img src={logo} alt="rkp-logo" style={{width :"6rem"}}/>
 
        
         <ul className="hidden md:flex flex-1 justify-center font-medium space-x-20 ">

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import img from "../assets/krishnaprabhu.jpg"
 
 function Hero() {
   return (
@@ -37,10 +38,11 @@ function Hero() {
           className="flex-1 flex justify-center md:justify-end"
         >
           <img
-            src="\src\image\Krishnaprabhu.jpg" 
-            alt="Krishnaprabhu"
-            className="w-70 h-70 md:w-96 md:h-96 object-cover mx-auto px-2 rounded-full shadow-lg "
-          />
+  src={img}
+  alt="Krishnaprabhu-img"
+  className="w-56 h-56 md:w-72 md:h-72 object-cover object-conatin mx-auto px-4 rounded-full shadow-lg"
+/>
+
         </motion.div>
       </div>
     </section>
