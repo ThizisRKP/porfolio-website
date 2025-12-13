@@ -6,11 +6,11 @@ function Education() {
       </h2>
 
       <div className="bg-white shadow-lg p-4 rounded-lg max-w-2xl mx-auto text-gray-700">
-        <h3 className="text-2xl font-bold mb-2 t">
+        <h3 className="text-2xl font-bold mb-1 text-grey-600">
           B.E. Computer Science Engineering,
         </h3>
 
-        <p className="text-lg font-medium mb-1  ">
+        <p className="text-lg font-medium text-lg mb-4 ">
           VSA Group of Institutions, Salem.
         </p>
 

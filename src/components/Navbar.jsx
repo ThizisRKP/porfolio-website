@@ -9,14 +9,14 @@ function Navbar() {
     <nav className="fixed w-full bg-white shadow z-50">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
 
-        <img src={logo} alt="rkp-logo" style={{ width: "6rem" }} />
+        <img src={logo} alt="rkp-logo" style={{ width: "6rem"  }} />
 
         
         <div
           className="md:hidden text-3xl cursor-pointer"
           onClick={() => setOpen(!open)}
         >
-          {open ? <FaTimes /> : <FaBars />}
+          {open ? <FaTimes style={{color : "red"}} /> : <FaBars style={{color : "#231f20"}}/>}
         </div>
 
         
