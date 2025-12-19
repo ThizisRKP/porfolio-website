@@ -1,5 +1,6 @@
 import { FaEnvelope, FaPhone, FaLinkedin, FaDownload } from "react-icons/fa";
 
+
 function Contact() {
   return (
     <section id="contact" className="mt-5 container mx-auto px-6 text-center">
@@ -35,12 +36,12 @@ function Contact() {
        
  <label>Get my resume : </label>
         <a
-          href="/resume.pdf"
-          download
-          className="flex items-center gap-2 bg-blue-600 text-white px-3 py-2 rounded-md hover:bg-blue-700"
-        >
-          <FaDownload /> Download
-        </a>
+  href="/Krishnaprabhu.R_Resume.pdf"
+  download
+  className="flex items-center gap-2 bg-blue-600 text-white px-3 py-2 rounded-md hover:bg-blue-700"
+>
+  <FaDownload /> Download
+</a>
 
       </div>
     </section>
