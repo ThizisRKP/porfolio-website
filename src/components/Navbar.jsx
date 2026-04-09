@@ -6,7 +6,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full bg-white shadow z-50">
+    <nav className="fixed w-full bg-white shadow z-50`">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
 
         <img src={logo} alt="rkp-logo" style={{ width: "6rem"  }}
@@ -32,7 +32,7 @@ function Navbar() {
 
         
         {open && (
-          <ul className="absolute top-20 left-0 w-full bg-white shadow md:hidden flex flex-col items-center py-6 space-y-6 text-lg font-bold">
+          <ul className="absolute top-16 left-0 w-full bg-white rounded-[15px] shadow md:hidden flex flex-col items-center py-5 space-y-5 text-lg font-bold">
             <a onClick={() => setOpen(false)} href="#hero">Home</a>
             <a onClick={() => setOpen(false)} href="#about">About</a>
             <a onClick={() => setOpen(false)} href="#education">Education</a>

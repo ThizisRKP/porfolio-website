@@ -18,7 +18,7 @@ function Hero() {
             Hello! , I'm <span className="text-green-600">Krishnaprabhu </span>
           </h1>
           <p className="text-xl text-gray-700 mb-6">
-            <b className="italic">MERN Stack Developer | Frontend & Backend Enthusiast | Problem Solver | Freelancer</b>
+            <b className="italic">Java Fullstack Developer | MERN Stack Developer  | Frontend & Backend Enthusiast | Problem Solver | Freelancer</b>
           </p>
 
           <a
@@ -39,8 +39,8 @@ function Hero() {
           <img
           src={img}
           alt="Krishnaprabhu-img"
-          className="w-56 h-56 md:w-72 md:h-72 object-cover object-conatin mx-auto px-4 rounded-full shadow-lg"
-        />
+          className="w-56 h-56 md:w-72 md:h-72 object-cover object-center mx-auto px-4 rounded-full shadow-lg"
+/>
 
         </motion.div>
       </div>
